@@ -1,0 +1,722 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+
+html body{
+    color: rgb(75, 75, 75);
+    position: relative;
+    font: 14px 微软雅黑, "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    background: rgb(246, 246, 246);
+}
+header{
+    width: 100%;
+    height: 116px;
+    background: #fff;
+    overflow: hidden;
+}
+.header-container{
+    height: 116px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-top{
+    margin-top: 10px;
+    float: right;
+    width: 328px;
+    height: 22px;
+}
+.header-li{
+    list-style: none;
+    float: left;
+    border-right: 1px solid #9a9a9a;
+    padding: 0 15px;
+}
+.header-li-1{
+    list-style: none;
+    float: left;
+    padding-left: 15px;
+}
+.header-li-a{
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.header-li-a-img{
+    margin-right: 10px;
+}
+.header-bottom{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+}
+.header-bottom-r{
+    float: right;
+    margin-top: 30px;
+}
+.header-bottom-r-img{
+    float: left;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.nav{
+    width: 100%;
+    height: 46px;
+    background: #0082f1;
+    position: relative;
+}
+.nav-ul{
+    width: 1000px;
+    height: 46px;
+    margin: 0 196.5px;
+    text-align: center;
+}
+.nav-li{
+    list-style: none;
+    float: left;
+    border-right: 1px solid #51afff;
+    text-align: center;
+    max-width: 16.666666%;
+    padding: 0 15px;
+
+}
+.nav-li-a{
+    color: #fff;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    font: 14px 'Î¢ÈíÑÅºÚ',Microsoft YaHei,Helvetica,Arial,sans-serif;
+    display: block;
+    width: 102px;
+    height: 20px;
+    padding: 13px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bimg{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background: url(http://www.shgjj.com/images/bn2.png) no-repeat center top;
+}
+.button{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    background: red;
+    height: 5px;
+}
+.bimg-box{
+    position: absolute;
+    margin-right: -520px;
+    top: 0;
+    display: block;
+    text-align: left;
+    width: 296px;
+    height: 357px;
+    left: 915px;
+}
+.bimg-box1{
+    background: rgba(0,0,0,.6);
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 296px;
+    float: right;
+    margin-top: 80px;
+    text-align: center;
+    width: 276px;
+    height: 237px;
+    padding: 20px 10px;
+}
+.bimg-img1{
+    vertical-align: middle;
+    border-style: none;
+}
+.bimg-btn{
+    width: 100%;
+    height: 55px;
+}
+.bimg-btn-mode{
+    padding: 0 10px;
+    float: left;
+    margin-top: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 118px;
+}
+.bimg-btn-am{
+    color: #0082f1;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bimg-ms{
+    margin-right: 10px;
+    vertical-align: middle;
+    border-style: none;
+    color: #0082f1;
+    line-height: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.bimg-h1{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 20px auto;
+    width: 260px;
+}
+.container{
+    position: relative;
+    width: 1110px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.dating{
+    width: 1108px;
+    height: 414px;
+    margin-top: 20px;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.15);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.dating-head{
+    text-align: center;
+    padding-top: 10px;
+}
+.dating-head-img{
+    vertical-align: middle;
+    border-style: none;
+}
+.dating-body{
+    width: 1108px;
+    height: 357px;
+}
+.dating-body-left{
+    width: 830px;
+    height: 337px;
+    margin-top: 20px;
+    border-right: 1px solid #dee2e6;
+    float: left;
+}
+.body-left-head{
+    width: 830px;
+    height: 37px;
+    border-bottom: 1px solid #ddd;
+}
+.body-left-head-ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+.body-left-head-li-mode{
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: -1px;
+    float: left;
+}
+.body-left-head-a-mode{
+    border: none;
+    border-right: 1px solid #c9c9c9;
+    margin-left: -1px;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.body-left-content{
+    width: 830px;
+    height: 300px;
+}
+.body-left-content-left{
+    float: left;
+    width: 14%;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: column ;
+    height: 250px;
+}
+.body-left-li{
+    width: 116px;
+    height: 49px;
+    border-bottom: 1px solid  #c9c9c9;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.body-left-img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.body-left-a{
+    text-indent: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+}
+.dating-body-right{
+    width: 277px;
+    height: 337px;
+    margin-top: 20px;
+    float:right;
+}
+.dating-body-right-top{
+    border-bottom: 1px solid #dee2e6;
+    padding: 0 1rem 16px 1rem;
+    font-size: 16px;
+    display: block
+}
+.dating-body-right-bottom{
+    width: 277px;
+    height: 218px;
+    padding-top: 20px;
+}
+.bianming-mode{
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 108.5px;
+    height: 99px;
+}
+.bianming-a{
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 4px;
+}
+.bianming-i{
+    margin-bottom: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+.information{
+    width: 1108px;
+    height: 352px;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.15);
+    margin-top: 20px;
+    background: #fff;
+}
+.information-head{
+    text-align:center;
+    padding-top: 10px;
+}
+.information-body{
+    width: 1108px;
+    height: 342px;
+}
+.information-body-left{
+    float: left;
+    padding: 0;
+    width: 185px;
+    height: 342px;
+}
+.information-body-left-u1{
+    width: 185px;
+    height: 250px;
+    list-style: none;
+}
+.information-body-left-li{
+    width: 184.6px;
+    height: 50px;
+}
+.information-body-left-a1{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url(http://www.shgjj.com/images/xxgk-01.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.information-body-left-a2{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url(http://www.shgjj.com/images/xxgk-02.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.information-body-left-a3{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url(http://www.shgjj.com/images/xxgk-03.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.information-body-left-a4{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url(http://www.shgjj.com/images/xxgk-04.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.information-body-left-a5{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url(http://www.shgjj.com/images/xxgk-05.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+.information-body-right{
+    padding-left: 80px;
+    float: right;
+    width: 843px;
+    height: 342px;
+}
+.information-body-right-nav{
+    margin-top: 10px;
+    list-style: none;
+    height: 36px;
+}
+.information-body-right-nav-li{
+    float: left;
+}
+
+.information-body-right-amode{
+    border-right: 1px solid #ccc;
+    margin-left: -1px;
+    border-radius: 0;
+    padding: 0 16px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4b4b4b;
+    cursor: pointer;
+    width: 107px;
+    display: block;
+}
+.information-body-right-body{
+    width: 843px;
+    height: 295px;
+    border-top: 1px solid #ccc;
+}
+.information-body-right-body-content{
+    width: 823px;
+    height: 255px;
+    padding: 20px 20px;
+    padding-left: 0;
+}
+.information-right-bottom{
+    list-style: none;
+}
+.information-body-right-line{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.information-body-right-line-a{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    width: 80%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.date{
+    float: right;
+}
+.gengduo{
+    background: #0082f1;
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bg2{
+    width: 100%;
+    background: url(http://www.shgjj.com/images/ztzl-bg.png) no-repeat;
+    min-height: 321px;
+    background-size: cover;
+    margin: 20px 0;
+    text-align: center;
+}
+.bg2-top{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 55px;
+}
+.bg2-top-img{
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.bg2-bottom{
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.last-1{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.15);
+    margin-top: 20px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.last-1-mode{
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    width: 46%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.last-1-content{
+    width: 800px;
+    margin: 20px auto;
+    height: 216px;
+}
+.last-1-a-mode{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 20px 0 30px 0;
+}
+.last-1-s{
+    background: #0082f1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 30px;
+    font-size: 18px;
+}
+.last-2{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.15);
+    margin-top: 20px;
+    position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: 198px;
+}
+.last-2-content{
+    margin: 20px;
+}
+.last-2-mode{
+    width:17%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.last-2-a{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 20px 0 30px 0;
+}
+.last-2-s{
+    color: #0082f1;
+    text-align: center;
+}
+
+.last-3-content{
+    width: 800px;
+    margin: 20px auto;
+    height: 58px;
+}
+.last-3-mode{
+    position: relative;
+    float: left;
+    width: 45%;
+    padding: 0 15px;
+    height: 58px;
+}
+.last-3-btn{
+    cursor: pointer;
+    background: #fff;
+    color: #4b4b4b;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+footer{
+    box-shadow: 2px 0 8px 0 rgba(0,0,0,.15);
+    width: 100%;
+    padding: 30px 0 50px 0;
+    overflow: hidden;
+    position: relative;
+    height:134px;
+}
+.footer-container{
+    width: 1000px;
+    height: 214px;
+    margin: 0 auto;
+}
+.footer-top{
+    position: relative;
+    width: 100%;;
+    height: 36px;
+}
+.footer-top-ul{
+    list-style: none;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.footer-top-li-mode{
+    float: left;
+    list-style: none;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer-right{
+    float: right;
+    position: relative;
+    width: 333px;
+    height: 63px;
+}
+.footer-img-a{
+    display: block;
+    width: 25%;
+}
+.footer-img{
+    float: left;
+    width: 83px;
+}
+.footer-detail{
+    float: left;
+    width: 74%;
+    height: 63px;
+}
+.footer-detail-t1{
+    width: 168px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+.footer-detail-img1{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.footer-detail-text{
+    font-size: 12px;
+    float: left;
+}
+.footer-detail-t2{
+    font-size: 12px;
+    height: 16px;
+}
+.footer-detail-t2-a{
+    float: left;
+    margin-right: 10px;
+}
+.footer-last{
+    float: left;
+    margin-top:6px;
+}
+.footer-left-ulmode{
+    margin: 5px 0;
+}
+.footer-left-limode{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footer-left-a{
+    color: #0082f1;
+}
